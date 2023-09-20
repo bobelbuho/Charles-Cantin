@@ -1,0 +1,26 @@
+/* Couleurs prédéfinies */
+:root {
+    --couleur-fond: #333;
+    --couleur-texte: #fff;
+    --couleur-lien-survol: #ff1100;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    background: var(--couleur-fond);
+  }
+
+  /* NAV BAR */
+.navbar {
+    background-color: var(--couleur-fond);
+}
+
+.navbar .nav-link {
+    color: var(--couleur-texte);
+}
+
+.navbar .nav-link:hover {
+    color: var(--couleur-lien-survol);
+}
+
+  
