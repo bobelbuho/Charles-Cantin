@@ -7,13 +7,15 @@
   *{
     margin: 0;
     padding: 0;
-    background: var(--couleur-fond);
-    display: ;
+    background: url(.\images\background.jpg);
   }
 
   /* NAV BAR */
 .navbar {
     background-color: var(--couleur-fond);
+}
+.navbar .container{
+  width: 100%;
 }
 
 .navbar .nav-link {
