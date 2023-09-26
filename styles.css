@@ -106,8 +106,8 @@ header{
   justify-content: center;
 }
 
-/* hero*/
-section#hero{
+/* container*/
+.container{
   height: calc(100vh - 60px);
   display: flex;
   flex-direction: column;
@@ -116,9 +116,21 @@ section#hero{
   text-align: center;
   color: #fff;
 }
-#hero h1{
+.container h1{
+  display: block;
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+.portraitImg img{
+  height: 92px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.portraitImg{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 /* reponsive */ 
