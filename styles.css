@@ -8,7 +8,7 @@
 body{
   height: 100vh;
   background-color: #000;
-  background-image: url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1517&q=80');
+  background-image: url('./images/background.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -17,7 +17,7 @@ body{
 }
 .navbar a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff4d;
   font-size: 1rem;
 }
 .navbar a:hover{
@@ -47,14 +47,14 @@ header{
   gap: 2rem;
 }
 .navbar .toggle_btn{
-  color: #fff;
+  color: #ffffff4d;
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
 }
 .contact-btn{
   background-color: orange;
-  color: #fff;
+  color: #ffffff4d;
   padding: 0.5rem 1rem;
   border: none;
   outline: none;
@@ -62,4 +62,24 @@ header{
   font-size: 0.8rem;
   font-weight: bold;
   cursor: pointer;
+  transition: scale 0.2 ease;
+}
+.contact-btn:hover{
+  scale: 1.05;
+  color: #fff;
+}
+.contact-btn:active{
+  scale: 0.95;
+}
+
+/* reponsive */ 
+
+@media(max-width: 723px){
+  .navbar .links, 
+  .navbar .contact-btn{
+    display: none;
+  }
+  .navbar .toggle_btn{
+    display: block;
+  }
 }
