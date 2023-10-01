@@ -140,6 +140,7 @@ header{
 }
 .img-container img{
   height: 500px;
+  right: 0;
 }
 .img-container {
   float: right;

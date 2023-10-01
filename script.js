@@ -12,7 +12,7 @@ toggleBtn.onclick = function () {
 }
 
 /*container */
-function myFunction(portraitImg){
+function myFunction(smallImg){
     var fullImg = document.getElementById('imageBox');
-    fullImg.src = smallImg.src
+    fullImg.src = smallImg.src;
 }
