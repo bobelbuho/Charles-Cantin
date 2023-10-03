@@ -113,12 +113,6 @@ header{
   transform: translate(-50%, -50%);
   position: absolute;
 }
-.container h1{
-  display: block;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
 .portraitImg img{
   height: 92px;
   margin: 10px 0;
@@ -140,7 +134,7 @@ header{
 }
 .img-container img{
   height: 500px;
-  right: 0;
+  border-radius: 15px;
 }
 .img-container {
   float: right;
